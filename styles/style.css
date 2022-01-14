@@ -6,7 +6,9 @@ body{
 
 }
 
-/* Start Journey Styles */
+/*----------
+ Start Journey Styles
+ --------------- */
 .start-journey{
     display: flex;
     margin-left: 120px;
@@ -43,4 +45,24 @@ body{
     height: 414px;
     padding-left: 20%;
     padding-top: 120px;
+}
+/* -----------
+Popular collections styles
+---------------- */
+.section-title{
+    text-align: center;
+}
+.all-collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    grid-column-gap: 30px;
+    grid-row-gap:30px;
+}
+.collection{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
 }
