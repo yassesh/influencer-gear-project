@@ -1,0 +1,46 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Moon+Dance&family=Poppins:wght@500&family=Source+Serif+Pro:wght@600&display=swap');
+/* Common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Start Journey Styles */
+.start-journey{
+    display: flex;
+    margin-left: 120px;
+    
+}
+.journey-details{
+    width: 50%;
+    margin-top: 140px;
+
+}
+.main-heading{
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.main-heading-details{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.booking-button{
+    width: 160px;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    margin: 0;
+    padding: 2px 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.camera-pic img{
+    width: 440px;
+    height: 414px;
+    padding-left: 20%;
+    padding-top: 120px;
+}
