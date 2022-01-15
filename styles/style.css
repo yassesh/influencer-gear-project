@@ -3,7 +3,13 @@
 /* Common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
+}
+.top-heading{
+    margin-left: 120px;
+    margin-top: 80px;
+    font-size: 24px;
 }
 
 /*----------
@@ -13,10 +19,11 @@ body{
     display: flex;
     margin-left: 120px;
     
+    
 }
 .journey-details{
     width: 50%;
-    margin-top: 140px;
+    padding-top: 20px;
 
 }
 .main-heading{
@@ -44,7 +51,7 @@ body{
     width: 440px;
     height: 414px;
     padding-left: 20%;
-    padding-top: 120px;
+    padding-top: 20px;
 }
 /* -----------
 Popular collections styles
