@@ -1,6 +1,8 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Moon+Dance&family=Poppins:wght@500&family=Source+Serif+Pro:wght@600&display=swap');
-/* Common styles */
+/*---------
+ Common styles 
+ ------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -58,8 +60,11 @@ Popular collections styles
 ---------------- */
 .section-title{
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
 }
 .popular-collection{
+    margin-top: 100px;
     margin-bottom: 200px;
 }
 .all-collections{
@@ -77,16 +82,31 @@ Popular collections styles
     border-radius: 5px;
     padding: 15px;
 }
-.see-more{
-    position: relative;
-    top: 50px;
-    left: 83%;
+.see-more{        
+    margin-top: 50px;
+    margin-left: 83%;
+}
+.see-more a{
     text-decoration: none;
     color: #E02C6DDE;
     font-size: 16px;
-
-
 }
+/*----------
+Speciality styles 
+-----------------*/
+.all-special-icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgba(216, 207, 207, 0.486);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 200px;
+    line-height: 10px;
+}
+.special-icon{
+    text-align: center;
+}
+
 /*------
  Footer styles
  ------------- */
@@ -107,3 +127,66 @@ footer{
     text-decoration: none;
     color: gray;
 }
+
+/*-------
+ Media styles
+ --------------- */
+ @media only screen and (max-width:688px) {
+     section{
+         display: none;
+     }
+     .top-heading{
+         text-align: center;
+         margin-left: 0;
+         margin-top: 30px;
+         
+     }
+     /* start journey section */
+     .container-one{
+         display: block;
+         margin-left: 0;
+         width: 100%;
+     }
+     .start-journey{
+         flex-direction: column;
+         margin-left: 0;
+         align-items: center;
+     }
+     .camera-pic{
+         width: 100%;
+     }
+     .camera-pic img{
+         padding-left: 0px;
+         width: 100%;
+     }
+
+     /* popular collection section */
+     .container-two{
+         display: block;
+         width: 100%;
+         
+
+     }
+     .all-collections{
+         grid-template-columns: repeat(1,1fr);
+         margin-left: 5%;    
+
+     }
+     
+
+
+
+     /* .container{
+         width: 100%;
+     }
+     .start-journey{
+         flex-direction: column;
+     } */
+     
+     /* .all-collections{
+         grid-template-columns: repeat(1,1fr);        
+     }
+     .section-title{
+         text-align: center;
+     } */
+ }
