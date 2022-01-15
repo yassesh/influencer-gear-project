@@ -52,17 +52,51 @@ Popular collections styles
 .section-title{
     text-align: center;
 }
+.popular-collection{
+    margin-bottom: 200px;
+}
 .all-collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 120px;   
     grid-column-gap: 30px;
     grid-row-gap:30px;
+
 }
 .collection{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 15px;
+}
+.see-more{
+    position: relative;
+    top: 50px;
+    left: 83%;
+    text-decoration: none;
+    color: #E02C6DDE;
+    font-size: 16px;
+
+
+}
+/*------
+ Footer styles
+ ------------- */
+footer{
+    background: #090625;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    line-height: 10px;
+    
+}
+.social-media-icon i{
+    font-size: 32px;
+    margin: 8px;    
+}
+.social-media-icon a{
+    text-decoration: none;
+    color: gray;
 }
